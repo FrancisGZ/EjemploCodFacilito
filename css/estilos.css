@@ -1,5 +1,6 @@
-a, .vino-claro{
-	color: #892A2F;
+
+a{
+	color: #FFFFFF;
 }
 body{
 
@@ -11,9 +12,20 @@ img{
 
 }
 
+nav{
+	background-color:  #892A2F;
+}
+
 
 .alinear-arriba{
 	vertical-align: top;
+}
+
+
+
+.divMarginTop
+{
+	margin-top: 3em;
 }
 
 .inline-block{
@@ -21,6 +33,16 @@ img{
 	display: inline-block;
 	margin-right: -4px;
 
+}
+
+
+.imagen-redonda{
+	border: 5px solid  #892A2F;;
+	border-radius: 50%;
+}
+
+.imagen-esquina{
+	border-radius: 20% 30% 20% 30%;
 }
 
 .quitar-float{
@@ -43,9 +65,17 @@ img{
 	font-size: 1.5em;
 }
 
-.Pacifico{
-	font-family: 'Pacifico', cursive;
+.MenuFixed{
+	position: fixed;
+	left:0;
+	right: 0;
+	top: 0;
+}
 
+.Pacifico{
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Sigmar One', cursive;
+	
 }
 
 .padding-largo
@@ -63,6 +93,13 @@ img{
 	color: #78121C;
 }
 
+
+.vino-claro{
+	color: #892A2F;
+}
+
+
+
 .no-lista{
 	margin: 0px;
 	padding: 0px;
@@ -71,14 +108,25 @@ img{
 	list-style: none;
 }
 
+
+.retraso-.5{
+	-webkit-animation-delay: .5s;
+	-moz-animation-delay: .5s;
+	animation-delay: .5s;
+}
+
+
 .retraso-1{
 	-webkit-animation-delay: 1s;
 	-moz-animation-delay: 1s;
 	animation-delay: 1s;
 }
 
+
+
+
 .retraso-2{
-	-webkit-animation-delay: 1s;
-	-moz-animation-delay: 1s;
-	animation-delay: 1s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
 }
