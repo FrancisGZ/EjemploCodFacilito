@@ -6,34 +6,37 @@
 				<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 		<link rel="stylesheet"  href="css/estilos.css">
-		<!--<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' >-->
-		<!--<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700italic' rel='stylesheet' >-->
-		<link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet"  href="css/animate.css">
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700italic' rel='stylesheet' type='text/css'>
 		<title>Kizuna Store</title>
 	</head>
 	<body>
 		<nav class="gris padding-largo text-center">
 			<ul class="no-lista">
-				<li class="col-md-3 inline-block Pacifico"><a href="index.html">Home</a></li>
-				<li class="col-md-3 inline-block Pacifico"><a href="figuras.html">Figuras</a></li>
-				<li class="col-md-3 inline-block Pacifico"><a href="contacto.html">Contacto</a></li>
+				<li class="col-md-3 inline-block Pacifico color-blanco"><a href="index.html" class="Menu-link">Home</a></li>
+				<li class="col-md-3 inline-block Pacifico color-blanco"><a href="figuras.html" class="Menu-link">Figuras</a></li>
+				<li class="col-md-3 inline-block pacifico color-blanco"><a href="Encuentranos.html" class="Menu-link">Encuentranos</a></li>
+				<li class="col-md-3 inline-block pacifico color-blanco"><a href="contacto.html" class="Menu-link">Contacto</a></li>
 				
 			</ul>
 		</nav>
 		<section>
-			<div class="mediano text-center">
-				<h1 class="pacifico grande  vino">Contacto</h1>
-				<p>
-					Tecnológico de roque
-					Juventino Rosas
-					38110 GTO
+
+			<div class="text-center mediano animated fadeInUp retraso-1 ">
+				<img src="images/kizuna.jpeg" class="animated fadeIn imagen-redonda ">
+				<p >
+					Escribenos a <a href="mailto:info@kizuna.com" class="Pacifico vino-claro ">info@kizuna.com</a>
 				</p>
-				<p>
-					Escribenos a <a href="mailto:info@kizuna.com">info@kizuna.com</a>
-				</p>
-				<p>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.163342760688!2d-100.82680500000004!3d20.581386000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842ca5391cefde3f%3A0x94dd9ba5b515776e!2sTecnol%C3%B3gico+de+roque!5e0!3m2!1ses!2smx!4v1420503345743" width="600" height="450" frameborder="0" style="border:0"></iframe>
-				</p>
+				<p>O utiliza nuestro formulario de contacto</p>
+			</div>	
+			<div class="text-center animated fadeInDown retraso-1 ">
+				<form class="formulario">
+					<input class="formulario-input" type="text" placeholder="Nombre"/>
+					<input class="formulario-input" type="email" placeholder="Email"/>
+					<textarea class="formulario-textarea" rows="3" cols="50" placeholder="Motivo"></textarea>
+					<button class="formulario-button" type="submit">Contactar</button>
+				</form>
 			</div>
 		</section>
 	</body>

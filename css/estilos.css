@@ -21,12 +21,11 @@ nav{
 	vertical-align: top;
 }
 
-
-
-.divMarginTop
-{
-	margin-top: 3em;
+div{
+	margin-top: 1em;
 }
+
+
 
 .inline-block{
 	float: none;
@@ -66,10 +65,13 @@ nav{
 }
 
 .MenuFixed{
-	position: fixed;
+	text-align: center;
+	height: 3.5em; /*60/16 */
+	/*position: fixed;*/
 	left:0;
 	right: 0;
 	top: 0;
+
 }
 
 .Pacifico{
@@ -87,6 +89,15 @@ nav{
 {
 	font-size: 3em;
 }
+
+
+.Menu-link{
+	text-decoration: none;
+	line-height: 3em; /*tiene  el mismo valor que el alto del padre y solo se puede usar cuando es solo una linea*/
+	margin-right: 1.5em;
+
+}
+
 
 .vino{
 
@@ -129,4 +140,37 @@ nav{
 	-webkit-animation-delay: 2s;
 	-moz-animation-delay: 2s;
 	animation-delay: 2s;
+}
+
+.social-link{
+
+	margin-right: .5em ;
+	
+	
+
+}
+
+
+
+.formulario{
+	text-align: center;
+	display: inline-block;
+
+}
+
+.formulario-input,
+.formulario-textarea{
+	border: none;
+	display: block;
+	border-radius: 2em;
+	padding: .5em;
+	margin: 0 auto 1em;
+	background: #C14E4E;
+	color: #FFFFFF;
+	border: 2px solid  #892A2F;;
+}
+
+.formulario-button{
+	border-radius: .5em;
+	border: 2px solid  #892A2F;;
 }
