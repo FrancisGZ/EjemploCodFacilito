@@ -74,7 +74,7 @@ div{
 
 }
 
-.Pacifico{
+.Sigmar{
 	/*font-family: 'Pacifico', cursive;*/
 	font-family: 'Sigmar One', cursive;
 	
@@ -93,7 +93,7 @@ div{
 
 .Menu-link{
 	text-decoration: none;
-	line-height: 3em; /*tiene  el mismo valor que el alto del padre y solo se puede usar cuando es solo una linea*/
+	line-height: 3em; 
 	margin-right: 1.5em;
 
 }
